@@ -1076,6 +1076,7 @@ input:invalid {
 	/* Start Project */
 	#projectHouseFlip {
 		top: -10px;
+		overflow: hidden;
 	}
 
 	#projectAdvertisement {
@@ -1098,12 +1099,17 @@ input:invalid {
 	
 	.about-us-video-content {
 		top: 10px;
+		padding: 205px 180px;
 	}
 	
 	.about-us-video-content h1 {
 		white-space: nowrap;
 	}
 	/* End About Us */
+	
+	.contact-mail-symbol {
+		left: 100px
+	}
 	
 	.footer-social-media {
 		float: left !important;
