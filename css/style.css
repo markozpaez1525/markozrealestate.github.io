@@ -417,7 +417,7 @@ h6,
 	background: rgba(0, 0, 0, 0.5);
 	color: #f1f1f1;
 	width: 100%;
-	padding: 5px;
+	padding: 10px;
 }
 
 /* Start Banner */
@@ -549,6 +549,10 @@ ul, ol {
 	padding: 15px;
 }
 
+.modal-gallery {
+	height: 500px;
+}
+
 .home-tour-bg {
 	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/home-tour-bg.jpg) center;
 	background-size: auto;
@@ -607,11 +611,12 @@ ul, ol {
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	width: 100%;
-	padding: 10px;
+	padding: 11px;
 }
 
 .project-video-content h1 {
 	white-space: nowrap;
+	font-size: 56px;
 }
 
 #projectHouseFlip {
@@ -978,7 +983,8 @@ input:invalid {
 	}
 	
 	.card-btn {
-		left: 120px;
+		left: 130px;
+		top: 105px;
 	}
 	
 	.before, 
@@ -1056,6 +1062,10 @@ input:invalid {
 		margin-left: auto;
 	}
 	
+	.navbar-nav {
+		height: 25px;
+	}
+	
 	.nav-link:hover {
 		background: #000000 !important;
 		color: #ffffff !important;
@@ -1067,10 +1077,36 @@ input:invalid {
 	
 	.header-content {
 		position: relative !important;
+		top: 0;
 	}
 	
 	.banner-desc {
 		visibility: hidden
+	}
+	
+	.home-tour-bg {
+		background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/home-tour-bg-mob.jpg) center;
+		background-size: auto;
+	}
+	
+	.home-tour-bg h1 {
+		font-size: 45px;
+	}
+	
+	.card-btn {
+		left: 110px;
+		top: 85px;
+	}
+	
+	.before {
+		right: 190px;
+	}
+	.after {
+		right: 50px;
+	}
+	
+	.modal-gallery {
+		height: 300px;
 	}
 	
 	/* Start Project */
@@ -1085,6 +1121,10 @@ input:invalid {
 	
 	.project-video-content {
 		top: 280px;
+	}
+	
+	.project-video-content h1 {
+		font-size: 50px;
 	}
 	/* End Project */
 	
