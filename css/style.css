@@ -422,15 +422,15 @@ h6,
 
 /* Start Banner */
 .banner-bg-1 {
-	background: url(../img/header-bg-1.jpg) center;
+	background: url(../img/header-bg-1.webp) center;
 	background-size: cover;
 }
 .banner-bg-2 {
-	background: url(../img/header-bg-2.jpg) center;
+	background: url(../img/header-bg-2.webp) center;
 	background-size: cover;
 }
 .banner-bg-3 {
-	background: url(../img/header-bg-3.jpg) center;
+	background: url(../img/header-bg-3.webp) center;
 	background-size: cover;
 }
 
@@ -450,7 +450,7 @@ h6,
 }
 
 .banner-content-fullscreen {
-	height: 700px;
+	height: 900px;
 }
 
 .banner-content-halfscreen {
@@ -761,22 +761,22 @@ input:invalid {
 
 /* Wood BG 1 */
 .section-bg-5 {
-	background: url(../img/wood-bg-1.jpg) repeat;
+	background: url(../img/wood-bg-1.webp) repeat;
 }
 
 /* Wood BG 2 */
 .section-bg-6 {
-	background: url(../img/wood-bg-2.jpg) repeat;
+	background: url(../img/wood-bg-2.webp) repeat;
 }
 
 /* Wood BG 3 */
 .section-bg-7 {
-	background: url(../img/wood-bg-3.jpg) repeat;
+	background: url(../img/wood-bg-3.webp) repeat;
 }
 
 /* Wood BG 4 */
 .section-bg-8 {
-	background: url(../img/wood-bg-4.jpg) repeat;
+	background: url(../img/wood-bg-4.webp) repeat;
 }
 
 /* Gold */
